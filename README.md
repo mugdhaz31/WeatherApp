@@ -1,12 +1,54 @@
-# React + Vite
+# 🌤️ WeatherApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and elegant **Weather App** built with **React + Vite** that allows users to search for real-time weather conditions, view forecasts, and save favorite cities.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔍 **Search Weather by City** – Get current weather conditions of any city worldwide.  
+- 🌡️ **Real-time Data** – Displays temperature, humidity, wind speed, and more.  
+- 📅 **5-Day Forecast** – Visualize upcoming weather trends.  
+- ⭐ **Favorites** – Save and manage favorite locations for quick access.  
+- 📊 **Weather Chart** – Interactive charts to visualize forecast data.  
+- ⚡ **Fast & Responsive** – Built with **Vite + React**, fully responsive for mobile and desktop.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ **React** (with Vite)  
+- 🎨 **CSS / Tailwind (if used)**  
+- 🌍 **OpenWeatherMap API** (or whichever API you’re using)  
+- 📦 **Node.js & npm**  
+
+---
+
+## 🖼️ Screenshots  
+
+ ![Without Search](<Pic1.png>)
+
+
+
+ ![With Search](<Pic2.png>)
+
+---
+
+## 🚀 Getting Started
+
+To set up this project locally, run the following commands:  
+
+```sh
+# 1. Clone the repository
+git clone https://github.com/mugdhaz31/WeatherApp.git
+cd WeatherApp
+
+# 2. Install dependencies
+npm install
+
+# 3. Setup environment variables
+# Create a .env file in the root directory and add your API key
+echo "VITE_WEATHER_API_KEY=your_api_key_here" > .env
+
+# 4. Start the development server
+npm run dev
